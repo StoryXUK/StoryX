@@ -289,12 +289,12 @@ hr {
 header {
 	z-index: 99;
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 header .logo {
 	float: left;
 	width: auto;
-	margin: 20px 0;
+	margin: 10px 0;
 	position: relative;
 	z-index: 99;
 }
@@ -316,7 +316,7 @@ header nav li a {
 	float: left;
 	font-size: 12px;
 	margin: 0 15px;
-	font-family: 'montserratregular';
+	font-family: 'Arial';
 	position: relative;
 }
 header nav li.active a:hover {
