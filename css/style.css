@@ -193,7 +193,7 @@ section {
 	border-color: #35373e;
 }
 .btn:hover {
-	background: #35373e;
+	background: #FF5757;
 	color: #fff;
 }
 .btn-1 {
@@ -204,6 +204,7 @@ section {
 	background: none;
 	color: #333333;
 }
+
 .form-control {
 	box-shadow: none;
 	border: 1px solid #f7f7f7;
