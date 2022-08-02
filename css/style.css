@@ -86,10 +86,10 @@ h6 {
 	font-size: 16px;
 }
 p {
-	color: #989898;
-	font-size: 13px;
-	line-height: 28px;
-	font-family: 'montserratlight';
+	color: #575757;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Arial';
 }
 a {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -99,7 +99,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -117,7 +117,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #757575;
+	color: #575757;
 }
 .font-montserrat {
 	font-family: 'Montserrat', sans-serif;
