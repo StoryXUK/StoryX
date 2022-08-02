@@ -472,6 +472,16 @@ header.main-header nav .ownmenu li {
 /* ==========================================================================
    Hero Section
    ========================================================================== */
+
+   .display-table{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
 .hero_content{
 	padding-top: 40vh;
 }
@@ -1370,19 +1380,13 @@ header.main-header nav .ownmenu li {
 	color: #333333;
 	letter-spacing: 0.4px;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
+
 .tastimonial .testi img {
 	width: auto;
 }
-.tastimonial .avatar {
-	height: 110px;
-	width: 110px;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	border-radius: 50%;
-	background: #d0d0d0;
-}
+
 .tastimonial .testi {
 	text-align: center;
 	width: 65%;
@@ -1455,7 +1459,7 @@ header.main-header nav .ownmenu li {
 .tastimonial-bg:before {
 	position: absolute;
 	content: "";
-	height: 60px;
+	height: 10px;
 	width: 100%;
 	background: #fff;
 }
@@ -1625,9 +1629,10 @@ header.main-header nav .ownmenu li {
 ========================================================*/
 .footer-up {
 }
-.footer-up .col-sm-6 {
+.footer-up .col-sm-3 {
 	text-align: center;
 	padding: 0px;
+	background: #3c3c3c;
 }
 .footer-up .work {
 	padding: 50px;
@@ -1644,8 +1649,13 @@ header.main-header nav .ownmenu li {
 	min-height: 200px;
 	background: #343434;
 }
+.footer-up img {
+	padding: 50px;
+	min-height: 200px;
+	background: #343434;
+}
 .footer-up i {
-	font-size: 40px;
+	font-size: 20px;
 	color: #fff;
 }
 .footer-up p {
@@ -1653,7 +1663,10 @@ header.main-header nav .ownmenu li {
 	letter-spacing: 2.5px;
 }
 .footer-up a {
-	font-size: 28px;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 2.5px;
+	text-align: left;
 }
 .footer-up .social_icons {
 	margin-bottom: 20px;
@@ -1676,7 +1689,7 @@ footer {
 	background: #2e2e2e;
 	padding-top: 120px;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 footer img {
 	margin-bottom: 20px;
@@ -1684,7 +1697,7 @@ footer img {
 footer p {
 	color: #cecece;
 	font-size: 11px;
-	margin: 0px;
+	margin-top: 10px;
 }
 footer .social_icons {
 	margin-top: 40px;
@@ -2114,6 +2127,7 @@ footer .social_icons li a {
 }
 .comments .media-left {
 	margin-right: 20px;
+	
 }
 .comments .media-left a {
 	width: 100px;
@@ -2521,6 +2535,11 @@ footer .social_icons li a {
 
 
 .policy{
-	margin-top: 150px;
+	margin-top: 50px;
 	text-align: left;
 }
+
+
+
+
+
