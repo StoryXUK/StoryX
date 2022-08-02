@@ -25,7 +25,7 @@ body
 /*=======================================================
       IMPORT FONT FILE
 ========================================================*/
-@import url("../fonts/montserrat-fonts.css");
+@import url("../fonts/arial-fonts.css");
 /*=======================================================
       THEME STYLING START
 ========================================================*/
@@ -39,7 +39,7 @@ body {
 	position: relative;
 	font-size: 13px;
 	color: #333333;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 /*=======================================================
       WRAPPER
@@ -55,6 +55,7 @@ body {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+	
 }
 /*=======================================================
       HEADINGS
@@ -368,6 +369,7 @@ header ul.dropdown li:hover {
 header.main-header nav .ownmenu li {
 	padding: 0px;
 }
+
 /*=======================================================
       HOME SLIDER
 ========================================================*/
@@ -466,8 +468,11 @@ header.main-header nav .ownmenu li {
 /*=======================================================
     	ABOUT
 ========================================================*/
-.about {
+.hero {
+	background-color: #c3dae7;
+	
 }
+
 
 /* ==========================================================================
    Hero Section
@@ -483,7 +488,12 @@ header.main-header nav .ownmenu li {
     vertical-align: middle;
 }
 .hero_content{
-	padding-top: 40vh;
+	padding-top: 20vh;
+}
+
+.hero_content h1{
+	size: 20px;
+	text-transform: ;
 }
 
    .hero_section{
