@@ -1682,6 +1682,12 @@ header.main-header nav .ownmenu li {
 	letter-spacing: 2.5px;
 	text-transform: capitalize;
 }
+
+.footer-up a:hover {
+
+	color: #FF5757;
+	
+}
 .footer-up .social_icons {
 	margin-bottom: 20px;
 }
@@ -1699,31 +1705,31 @@ header.main-header nav .ownmenu li {
 /*=======================================================
       FOOTER
 ========================================================*/
-footer {
-	background: #2e2e2e;
-	padding-top: 120px;
+#footer {
+	
+	padding-top: 20px;
 	text-align: center;
 	font-family: 'Arial', sans-serif;
 }
-footer img {
+#footer img {
 	margin-bottom: 20px;
 }
-footer p {
-	color: #cecece;
-	font-size: 11px;
+#footer p {
+	color: #343434;
+	font-size: 14px;
 	margin-top: 10px;
 }
-footer .social_icons {
+#footer .social_icons {
 	margin-top: 40px;
 }
-footer .social_icons li {
+#footer .social_icons li {
 	float: none;
 }
-footer .social_icons li a {
+#footer .social_icons li a {
 	color: #fff;
 	line-height: 38px;
 }
-.footer-rights {
+#footer-rights {
 	margin-top: 50px;
 	padding: 15px 0;
 	background: #252525;
