@@ -282,7 +282,7 @@ hr {
       Padding 100px
 ========================================================*/
 .sectoion-100px {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 /*=======================================================
       HEADER
@@ -469,10 +469,13 @@ header.main-header nav .ownmenu li {
     	ABOUT
 ========================================================*/
 .hero {
-	background-color: #c3dae7;
+	background: #fbfbfb;
 	
 }
-
+.hero h4{
+	text-transform: none;
+	
+}
 
 /* ==========================================================================
    Hero Section
@@ -493,7 +496,7 @@ header.main-header nav .ownmenu li {
 
 .hero_content h1{
 	size: 20px;
-	text-transform: ;
+	
 }
 
    .hero_section{
@@ -1639,8 +1642,9 @@ header.main-header nav .ownmenu li {
 ========================================================*/
 .footer-up {
 }
+
 .footer-up .col-sm-3 {
-	text-align: center;
+	text-align: left;
 	padding: 0px;
 	background: #3c3c3c;
 }
@@ -1662,7 +1666,7 @@ header.main-header nav .ownmenu li {
 .footer-up img {
 	padding: 50px;
 	min-height: 200px;
-	background: #343434;
+	background: #3c3c3c;
 }
 .footer-up i {
 	font-size: 20px;
@@ -1676,7 +1680,7 @@ header.main-header nav .ownmenu li {
 	font-size: 14px;
 	color: #fff;
 	letter-spacing: 2.5px;
-	text-align: left;
+	text-transform: capitalize;
 }
 .footer-up .social_icons {
 	margin-bottom: 20px;
