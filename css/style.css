@@ -299,6 +299,7 @@ header .logo {
 	position: relative;
 	z-index: 99;
 }
+
 header nav {
 	display: inline-block;
 	position: relative;
@@ -325,6 +326,7 @@ header nav li.active a:hover {
 header nav li.active a {
 }
 header nav li a:hover {
+	color: #FF5757;
 }
 header nav .ownmenu li {
 	float: left;
