@@ -472,6 +472,10 @@ header.main-header nav .ownmenu li {
 /* ==========================================================================
    Hero Section
    ========================================================================== */
+.hero_content{
+	padding-top: 40vh;
+}
+
    .hero_section{
     background-image: url("../images/hero.jpg");
     background-position: center center;
@@ -2513,4 +2517,10 @@ footer .social_icons li a {
 }
 .padding-l-60 {
 	padding-left: 60px;
+}
+
+
+.policy{
+	margin-top: 150px;
+	text-align: left;
 }
